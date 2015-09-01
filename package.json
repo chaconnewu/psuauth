@@ -1,0 +1,30 @@
+{
+  "name": "psuauth",
+  "version": "0.0.1",
+  "description": "LDAP Authentication module for Penn State web applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaconnewu/psuauth.git"
+  },
+  "keywords": [
+    "LDAP",
+    "Penn State",
+    "psu",
+    "authentication"
+  ],
+  "author": "Yu Wu <chaconnewu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaconnewu/psuauth/issues"
+  },
+  "homepage": "https://github.com/chaconnewu/psuauth#readme",
+  "dependencies": {
+    "ldapauth-fork": "^2.3.3",
+    "ldapjs": "^0.7.1",
+    "q": "^1.4.1"
+  }
+}
