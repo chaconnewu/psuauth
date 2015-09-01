@@ -13,7 +13,6 @@ npm install psuauth
 ```
 (Please ignore the error messages during installation. It should be caused by ldapjs package.)
 
->>>>>>> Add readme content
 ## Example
 ```
 var psuauth = require('psuauth');
