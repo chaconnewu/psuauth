@@ -9,7 +9,6 @@ var server = {
   searchBase: 'dc=psu,dc=edu',
   searchFilter: '(uid={{username}})'
 };
-var ldap = new LdapAuth(server);
 
 /**
  * PSUAuth Module Interface
@@ -22,6 +21,7 @@ var ldap = new LdapAuth(server);
  */
 module.exports = function(username, password) {
   var deferred = Q.defer();
+  var ldap = new LdapAuth(server);
   ldap.authenticate(username, password, function(err, user) {
     ldap.close(function(){}); // We don't care about the closing
     if (err) {

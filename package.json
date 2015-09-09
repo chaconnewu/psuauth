@@ -1,6 +1,6 @@
 {
   "name": "psuauth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "LDAP Authentication module for Penn State web applications",
   "main": "app.js",
   "scripts": {
